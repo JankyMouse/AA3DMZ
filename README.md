@@ -2,7 +2,7 @@ This is a compatibility and cross-feature adaptation patch. Its primary purpose 
 
 Main Themes & Objectives:
 
-The core objective of JM_AA3DMZ is to bridge the functionalities of the specified 3D and action battle system plugins, enabling a more cohesive and robust 3D combat experience within the RPG Maker MZ environment. Key themes include:
+The core objective of AA3DMZ is to bridge the functionalities of the specified 3D and action battle system plugins, enabling a more cohesive and robust 3D combat experience within the RPG Maker MZ environment. Key themes include:
 
 3D Projectile Management: Implementing and standardizing various projectile types (3D models, sprites, particle systems) for skills and weapons within a 3D environment.
 Character Animation and Action Logic: Controlling 3D character animations based on movement states (stop, walk, run) and skill casting, including automatic action playback for player and AI.
@@ -21,7 +21,7 @@ Particle System: "For particles, you can use the particle editor here https://pl
 Projectile types can be defined per skill/weapon using a notetag (e.g., projectile:model, projectile:sprite, projectile:particle) or default to a value set in the plugin options. The plugin also includes logic for asynchronous loading and disposal of these projectile assets, ensuring efficient memory management.
 
 2. Dynamic Character Actions and Animations:
-JM_AA3DMZ implements a "MoveState / Model Action Logic" to play character animations based on their current state:
+AA3DMZ implements a "MoveState / Model Action Logic" to play character animations based on their current state:
 
 Stopped: actionName (e.g., "Attack")
 Moving (Walk): actionName + "Walk" (e.g., "Attackwalk")
@@ -59,7 +59,7 @@ To prevent loading stutters, the plugin preloads skill-related models and partic
 This is handled by Sprite_AAMapSkill2Projectile.prototype.asyncImportModel and Sprite_AAMapSkill2Projectile.prototype.ImportParticle. These preloaded assets are then stored in JM.AA3DMZ.tempProjectile and enabled/disabled as needed.
 Technical Details & Parameters:
 
-Plugin Name: JM_AA3DMZ
+Plugin Name: AA3DMZ
 Version: 0.7 (beta)
 Author: JankyMouse
 Key Parameters:_skipTitle (boolean, default: true): Skips the title screen.
@@ -78,4 +78,4 @@ Possibly re-evaluate requestPointerLock promise handling.
 Add visual feedback for skill range (blink/notify small range) when isInstant() or isInCertainPoint() skills are out of range.
 Conclusion:
 
-The JM_AA3DMZ patch is an essential component for users aiming to create a comprehensive 3D battle system in RPG Maker MZ by integrating MZ3D, AlphaABSZ, and OmniMove. It provides crucial fixes, new features for projectile and animation handling, and vital optimizations for a smoother 3D experience. Its modular approach to projectile types and automatic character actions significantly enhances the visual and gameplay depth of a 3D combat system.
+The AA3DMZ patch is an essential component for users aiming to create a comprehensive 3D battle system in RPG Maker MZ by integrating MZ3D, AlphaABSZ, and OmniMove. It provides crucial fixes, new features for projectile and animation handling, and vital optimizations for a smoother 3D experience. Its modular approach to projectile types and automatic character actions significantly enhances the visual and gameplay depth of a 3D combat system.
