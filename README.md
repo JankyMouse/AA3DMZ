@@ -60,7 +60,7 @@ This is handled by Sprite_AAMapSkill2Projectile.prototype.asyncImportModel and S
 Technical Details & Parameters:
 
 Plugin Name: AA3DMZ
-Version: 0.7 (beta)
+Version: 0.9
 Author: JankyMouse
 Key Parameters:_skipTitle (boolean, default: true): Skips the title screen.
 _useWalkRunSkill (boolean, default: true): Enables automatic 3D actions (Walk/Run).
@@ -70,12 +70,3 @@ _useMeshEquip (boolean): Enables mesh handling for equipped items.
 Notetags for Projectiles: projectile:model, projectile:sprite, projectile:particle in weapon/skill database.
 Action Naming Convention: For skill animations, add Attack, Attackwalk, Attackrun (or similar) NLA tracks to the 3D model.
 File Paths: Models in "Models" folder, Sprites in "Pictures" folder, Particles in "particles" folder (JSON and textures).
-TODOs Mentioned:
-
-Detailed AA3DMZ documentation.
-Fix "fav weapons circle and freedirection(original)" for GamePad Right Stick.
-Possibly re-evaluate requestPointerLock promise handling.
-Add visual feedback for skill range (blink/notify small range) when isInstant() or isInCertainPoint() skills are out of range.
-Conclusion:
-
-The AA3DMZ patch is an essential component for users aiming to create a comprehensive 3D battle system in RPG Maker MZ by integrating MZ3D, AlphaABSZ, and OmniMove. It provides crucial fixes, new features for projectile and animation handling, and vital optimizations for a smoother 3D experience. Its modular approach to projectile types and automatic character actions significantly enhances the visual and gameplay depth of a 3D combat system.
