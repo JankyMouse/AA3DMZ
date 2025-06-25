@@ -1,9 +1,4 @@
-This briefing document provides a detailed review of the "3D Battle System Compatibility Patch" (AA3DMZ) plugin, focusing on its main themes, functionalities, and key technical details.
-
-Briefing Document: JM_AA3DMZ (3D Battle System Compatibility Patch)
-Plugin Overview:
-
-The JM_AA3DMZ plugin, developed by JankyMouse, is a compatibility and cross-feature adaptation patch. Its primary purpose is to integrate and enhance the functionality between three core plugins: MZ3D V.9.2.8 (by Cutievirus), AlphaABSZ 0.9.4.1 (by Kage Desu), and OmniMove (by Cutievirus). The plugin is currently in release, at version 0.9.
+This is a compatibility and cross-feature adaptation patch. Its primary purpose is to integrate and enhance the functionality between three core plugins: MZ3D V.9.2.8 (by Cutievirus), AlphaABSZ 0.9.4.1 (by Kage Desu), and OmniMove (by Cutievirus). The plugin is currently in release, at version 0.9.
 
 Main Themes & Objectives:
 
